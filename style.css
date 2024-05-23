@@ -13,7 +13,11 @@ header{
     align-items: center;
 }
 
-
+.header_menu{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
 .menu{
     display: flex;
     margin: 28px 0px;
@@ -1396,3 +1400,37 @@ padding-left: 32px;
     margin-top: 24px;
 }
 
+.burger{
+    display: none;
+}
+
+
+.menu_mobile{
+    display: none;
+}
+
+.menu_mobile_list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.menu_mobile_list a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu_mobile_social{
+    display: flex;
+    gap: 10px;
+}
+
+
+.active{
+    display: flex;
+}
