@@ -10,8 +10,8 @@ openMenu.addEventListener("click",function(){
     mobileMenu.classList.toggle("active")
     if(mobileMenu.classList.contains("active")){
         openMenu.style.padding = 15 + "px";
-        devider_top.style.transform = "rotate(42deg)";
-        devider_bottom.style.transform = "rotate(-42deg)";
+        devider_top.style.transform = "rotate(49deg)";
+        devider_bottom.style.transform = "rotate(-49deg)";
         devider_midle.style.display = "none";
         span_content.style.gap = 0 + "px";
     }
