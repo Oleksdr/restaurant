@@ -264,6 +264,9 @@
     .main_our_story_story_wrapper{
         align-items: center;
     }
+    .main_about_us_history_wrapper{
+        padding-left: 0px;
+    }
 }
 @media(max-width:540px){
     .main_blog_inner_start_user{
@@ -341,7 +344,12 @@
     .footer_info{
         align-items: flex-start;
     }
-
+    .main_about_us__about_img{
+        padding-left: 0;
+    }
+    .main_about_us_history_wrapper{
+        padding-left: 30px;
+    }
 }
 
 @media(max-width:500px){
@@ -494,6 +502,7 @@
     }
     .main_review_text{
         padding-left: 0px;
+        padding-right: 20px;
     }
     .main_our_story_story_wrapper{
         flex-direction: column;
